@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "TTCommon";
+  src: url("Fonts/TT\ Commons\ DemiBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #495163;
+  font-family: TTCommon;
+  font-size: medium;
+}
+
+.page {
+  width: 60vw;
+  height: 90vw;
+  margin: 5% auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: white;
+  position: absolute;
+  left: 30rem;
+  text-align: center;
+  width: 30vw;
+  border: 3px solid black;
+  padding: 4em 1.5em;
+  margin: 3rem;
+}
+
+.leftS {
+  background-color: #f4f4f4;
+  display: inline-block;
+  width: 35%;
+  height: 100%;
+  vertical-align: middle;
+  padding: 17rem 2.5rem 3rem 3.5rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rightS {
+  background-color: white;
+  display: inline-block;
+  width: 64.5%;
+  height: 100%;
+  vertical-align: middle;
+  padding: 17rem 3.5rem 3rem 1.5rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.section {
+  padding: 1rem 1.5rem;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
+h3 {
+  width: 25rem;
+}
+
+p {
+  color: #a3a3a3;
+  font-size: 1rem;
+}
+
+.points {
+  font-size: 0.6rem;
+  padding: 3px 0;
+}
+
+hr {
+  border-style: solid none none;
+  border-width: 2px;
+}
